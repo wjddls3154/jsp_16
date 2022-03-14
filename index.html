@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="one">hello world</h1>
+    <button onclick="f()">눌러 !!</button>
+    <script>
+      function f() {
+        // 버튼 눌렀을 때 실행되는
+        document.getElementById("one").innerHTML = "반갑습니다 !!"; // 출력문이 변경되고,
+        document.getElementById("one").style.backgroundColor = "red"; // 배경색이 빨강색이 된다.
+      }
+    </script>
+  </body>
+</html>

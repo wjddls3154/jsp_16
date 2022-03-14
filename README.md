@@ -6,23 +6,11 @@
 ![image](https://user-images.githubusercontent.com/37132897/158134275-efffcce1-8948-40a0-ad83-5079d67aef43.png)
 - 버튼을 누른 후 모습
 
-<body>
-  
-  <h1 id="one">hello world</h1> 
-  
-  <button onclick="f()"> 눌러 !!</button>
-  
-  <script>
-    
-    function f() { // 버튼 눌렀을 때 실행되는
+      function f() { // 버튼 눌렀을 때 실행되는
     
       document.getElementById('one').innerHTML = '반갑습니다 !!';  // 출력문이 변경되고,
     
       document.getElementById('one').style.backgroundColor = 'red'; // 배경색이 빨강색이 된다.
-    
-    }
-    
-  </script>
-  
-</body>
+      
+      }
 
